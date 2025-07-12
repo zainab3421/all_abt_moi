@@ -90,7 +90,7 @@
     </div>
   </div>
 
-  <div class = "carousel slide" data-ride="carousel">
+  <div id = "carousel" class = "carousel slide" data-ride="carousel">
     <div class= "carousel-inner">
       <div class= "carousel-item">
         <img src= "https://images.unsplash.com/photo-1586953805370-9300364ab6f7?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Z2VuZXJpY3xlbnwwfHwwfHx8MA%3D%3D">
@@ -100,6 +100,60 @@
       </div>
       <div class = "carousel-item">
         <img src= "ihttps://images.unsplash.com/photo-1550237330-a5d774594098?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGdlbmVyaWN8ZW58MHx8MHx8fDA%3D">
+      </div>
+    </div>
+
+    <ul class="carousel-indicators" >
+      <li data-target="#carousel" data-slide-to="0"></li>
+      <li data-target="#carousel" data-slide-to="1"></li>
+      <li data-target="#carousel" data-slide-to="2"></li>
+    </ul>
+
+    <a href="#carousel" class="carousel-control-prev" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+
+    <a href="#carousel" class="carousel-control-next" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+
+  <div class="row" data-toggle="modal" data-target="#modal-carousel">
+    <div class="col-md-4">
+      <img src="https://images.squarespace-cdn.com/content/v1/607f89e638219e13eee71b1e/1684821560422-SD5V37BAG28BURTLIXUQ/michael-sum-LEpfefQf4rU-unsplash.jpg">
+    </div>
+    <div class="col-md-4">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToPKMOBwnl6YCUTDLmzQ93c7bWxy6gw32aaw&s">
+    </div>
+    <div class="col-md-4">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS0IQhVr9DDJCq61QX28zCoiqDrvezBh5ylw&s">
+  </div>
+  </div>
+
+  <div id = "modal-carousel" class = "modal fade">
+    <div class = "modal-dialog">
+      <div class = "modal-content">
+        <div id="mcarousel" class = "carousel slide" data-ride="carousel">
+          <div class = "carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://images.squarespace-cdn.com/content/v1/607f89e638219e13eee71b1e/1684821560422-SD5V37BAG28BURTLIXUQ/michael-sum-LEpfefQf4rU-unsplash.jpg">
+            </div>
+            <div class="carousel-item">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToPKMOBwnl6YCUTDLmzQ93c7bWxy6gw32aaw&s">
+            </div>
+            <div class="carousel-item">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS0IQhVr9DDJCq61QX28zCoiqDrvezBh5ylw&s">
+            </div>
+          </div>
+        </div>
+
+        <a href="#mcarousel" class="carousel-control-prev" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+
+        <a href="#mcarousel" class="carousel-control-next" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
       </div>
     </div>
   </div>
